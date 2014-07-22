@@ -2,6 +2,8 @@
 
 one:
   content: MyText
+  bird_id: 1
 
 two:
   content: MyText
+  bird_id: 1
