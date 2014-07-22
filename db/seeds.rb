@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Bird.create(name: "Phil", bird_type: "Falcon")
+Bird.create(name: "Jill", bird_type: "Hawk")
+Tweet.create(content: "Wake up sleepy head!", bird_id: Bird.first.id)
