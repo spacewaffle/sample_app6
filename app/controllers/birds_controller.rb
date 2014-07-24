@@ -7,6 +7,10 @@ class BirdsController < ApplicationController
     @birds = Bird.all
   end
 
+  def blah
+    render json: { name: params[:name], message: "hi jon!"} 
+  end
+
   # GET /birds/1
   # GET /birds/1.json
   def show
